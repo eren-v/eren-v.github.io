@@ -57,6 +57,7 @@ p {
     <div class="w3-container">
        <p> This function gets pdf file from directory, call ghostscript and convert by parameters given "String ars =..."
 	   <br>
+	   <code class="codeblock">
 		<br>public string PdfToJpg(string inputPDFFile, string outputImagesPath)<br>
         <br>{
         <br>var projectpath = new DirectoryInfo(string.Format("{0}bin\\", Server.MapPath(@"\")));
@@ -75,7 +76,7 @@ p {
 		<br>
         <br>string newPath = outputname + ".jpg";
         <br>return newPath;
-        <br>}</p> 
+        <br>}</code></p> 
       <!-- <div class="w3-row"> -->
         <!-- <div class="w3-col m8 s12"> -->
           <!-- <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p> -->
