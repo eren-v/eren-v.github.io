@@ -55,10 +55,10 @@ p {
      </div>
 
     <div class="w3-container">
-       <p> This function gets pdf file from directory, call ghostscript and convert by parameters given "String ars =..."
+       <p align="left"> This function gets pdf file from directory, call ghostscript and convert by parameters given "String ars =..."
 	   <br>
 	   <code class="codeblock">
-		<br>public string PdfToJpg(string inputPDFFile, string outputImagesPath)<br>
+		<br>public string PdfToJpg(string inputPDFFile, string outputImagesPath)
         <br>{
         <br>var projectpath = new DirectoryInfo(string.Format("{0}bin\\", Server.MapPath(@"\")));
         <br>string ghostScriptPath = System.IO.Path.Combine(projectpath.ToString(), "gs\\gs9.19\\bin\\gswin32.exe");
@@ -99,18 +99,18 @@ p {
     </div>
 
     <div class="w3-container">
-    <p>
-	# Be sure you are already connected to the TFS server (check in the Team Explorer).
-	# In the Solution Explorer, right-click the solution name and select "Add Solution to Source Control..."
-	# You may be asked to select the TFS server.
-	# Select the TFS Project to which you wish to add your solution.
-	# By default, the name of the solution folder should be the same as you are already using locally.
-	# After the solution has been added to the TFS project, it still needs to be checked in!   (You should see a "+" sign in front of the solution and its components in the Solution Explorer.)
-	# In the Solution Explorer, right-click the solution name.
-	# Selection "Check In..."
-	# Note that unrelated, unchecked-in items from other solutions may appear in the list of items to check in, but only those files from the current solution will have check marks.     There is no need to change anything.
-	# Add a check-in remark at the top of the dialog and click "Check-In". 
-	# In the Solution Explorer, the solution and its components should now show little locked padlocks.</p>
+    <p align="left">
+	<br># Be sure you are already connected to the TFS server (check in the Team Explorer).
+	<br># In the Solution Explorer, right-click the solution name and select "Add Solution to Source Control..."
+	<br># You may be asked to select the TFS server.
+	<br># Select the TFS Project to which you wish to add your solution.
+	<br># By default, the name of the solution folder should be the same as you are already using locally.
+	<br># After the solution has been added to the TFS project, it still needs to be checked in!   (You should see a "+" sign in front of the solution and its components in the Solution Explorer.)
+	<br># In the Solution Explorer, right-click the solution name.
+	<br># Selection "Check In..."
+	<br># Note that unrelated, unchecked-in items from other solutions may appear in the list of items to check in, but only those files from the current solution will have check marks.     There is no need to change anything.
+	<br># Add a check-in remark at the top of the dialog and click "Check-In". 
+	<br># In the Solution Explorer, the solution and its components should now show little locked padlocks.</p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
           <!-- <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p> -->
